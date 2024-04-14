@@ -6,8 +6,22 @@
       margin-top: 20px; /* Less margin at the top */
   }
   .research-paragraph {
-      max-width: 90%; /* Increase width for better readability */
-      padding: 5px; /* Reduce padding */
+    max-width: 90%; /* Increase width for better readability */
+    padding: 10px 10px;
+    color: #CCCCCC;
+    font-family: 'BigBlueTerm437 Nerd Font', monospace;
+    font-size: 18px;
+    text-align: center;
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    transition: background-color 0.8s ease, color 0.8s ease;
+  }
+
+  .cat-image {
+    max-width: 80%; /* Reduce the maximum width on small screens */
+    display: block; /* Ensures it's centered if needed */
+    margin: 0 auto; /* Center the image horizontally */
   }
 }
 
@@ -104,19 +118,6 @@ a {
 
 a:hover {
   color: red;
-}
-
-.research-paragraph {
-  color: #CCCCCC;
-  font-family: 'BigBlueTerm437 Nerd Font', monospace;
-  font-size: 18px;
-  text-align: center;
-  margin: 20px auto;
-  padding: 10px 10px;
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 10px;
-  transition: background-color 0.8s ease, color 0.8s ease;
-  max-width: 67%;
 }
 
 .special-paragraph:hover {
