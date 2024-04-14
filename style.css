@@ -19,9 +19,20 @@
   }
 
   .cat-image {
-    max-width: 80%; /* Reduce the maximum width on small screens */
-    display: block; /* Ensures it's centered if needed */
-    margin: 0 auto; /* Center the image horizontally */
+    max-width: 80%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .reader_button a, .home_button {
+    padding: 6px 12px;
+    font-size: 14px;
+  }
+
+  .copyright {
+    font-size: 12px;
+    bottom: 5px;
+    left: 5px; 
   }
 }
 
